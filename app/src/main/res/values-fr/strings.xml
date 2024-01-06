@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BlanatFront</string>
+    <string name="acceuil">Explorez, trouvez des affaires incroyables, et économisez votre argent avec notre appli !</string>
+    <string name="login">Connexion</string>
+    <string name="signup">Inscription</string>
+    <string name="create_account">Vous n\'avez pas de compte ? Inscrivez-vous.</string>
+    <string name="u_have_account_login">Vous avez déjà un compte ? Connectez-vous.</string>
+    <string name="password_hint">Mot de passe</string>
+    <string name="email_hint">E-mail</string>
+    <string name="password_verification_hint">Vérification du mot de passe</string>
+    <string name="first_name_hint">Prénom</string>
+    <string name="last_name_hint">Nom de famille</string>
+    <string name="logout">Déconnexion</string>
+
+
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BlanatFront</string>
+    <string name="acceuil">استكشف، اعثر على صفقات رائعة، ووفّر أموالك مع تطبيقنا!</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="signup">التسجيل</string>
+    <string name="create_account">ليس لديك حساب؟ قم بالتسجيل.</string>
+    <string name="u_have_account_login">هل لديك حساب بالفعل؟ تسجيل الدخول.</string>
+    <string name="password_hint">كلمة المرور</string>
+    <string name="email_hint">البريد الإلكتروني</string>
+    <string name="password_verification_hint">تحقق من كلمة المرور</string>
+    <string name="first_name_hint">الاسم الشخصي</string>
+    <string name="last_name_hint">اسم العائلة</string>
+    <string name="logout">تسجيل الخروج</string>
+
+
+</resources>
