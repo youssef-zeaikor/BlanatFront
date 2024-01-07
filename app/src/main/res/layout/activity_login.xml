@@ -79,6 +79,8 @@
         android:layout_marginBottom="90dp"
         android:autoLink="all"
         android:text="@string/create_account"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
