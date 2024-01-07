@@ -22,9 +22,16 @@ public class ProfileActivity extends AppCompatActivity {
          logoutBtn.setOnClickListener(new View.OnClickListener() {
              @Override
              public void onClick(View v) {
+                 // Remove JWT token from SharedPreferences
                  removeJwtTokenFromSharedPreferences();
-                 Intent intent = new Intent(getBaseContext(),MainActivity.class);
+
+                 // Create a new task and clear the existing task (activity stack)
+                 Intent intent = new Intent(getBaseContext(), LoginActivity.class);
+                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                  startActivity(intent);
+
+                 // Finish the current activity
+                 finish();
              }
          });
 
@@ -32,13 +39,13 @@ public class ProfileActivity extends AppCompatActivity {
 
     }
 
-    @Override
-    protected void onRestart() {
-        super.onRestart();
-        if(getJwtTokenFromSharedPreferences() == null){
-            setContentView(R.layout.activity_main);
-        }
-    }
+//    @Override
+//    protected void onRestart() {
+//        super.onRestart();
+//        if(getJwtTokenFromSharedPreferences() == null){
+//            setContentView(R.layout.activity_main);
+//        }
+//    }
 
     private  String getJwtTokenFromSharedPreferences() {
         SharedPreferences preferences = getApplicationContext().getSharedPreferences("MyPreferences", MODE_PRIVATE);
